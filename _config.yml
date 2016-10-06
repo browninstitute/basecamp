@@ -1,0 +1,52 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title-bold: Basecamp
+title-normal: The Brown Institute for Media Innovation
+email: yilmaz@stanford.edu
+description: Interested in knowing more about the Magic Grants? Join us for a weekend to learn more about our process and meet potential teammates.
+baseurl:
+url:
+author:
+date: November 12-13, 2016
+street_address: Columbia University
+city: New York
+state: NY
+country: United States of America
+
+# Plugins
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jemoji
+
+# Homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 6
+
+# Social settings
+500px_url:
+facebook_url: https://www.facebook.com/MadeAtBrown/
+github_url: https://github.com/browninstitute
+slack_url:
+twitter_url: https://twitter.com/browninstitute
+
+# Build settings
+markdown: kramdown
+
+# Plugin: jekyll-seo-tag
+twitter:
+  username: andrewbanchich
+# Add one or more of the following
+facebook:
+  app_id:
+  publisher:
+  admins:
+logo:
+google_site_verification:
