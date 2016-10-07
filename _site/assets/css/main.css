@@ -3616,10 +3616,6 @@
 					position: relative;
 				}
 
-				#who-what-when > .inner > .split > * {
-					border-top: solid 1px rgba(212, 212, 255, 0.1);
-				}
-
 				#who-what-when > .inner > .split > :first-child {
 					padding-top: 0;
 					border-top: none;
