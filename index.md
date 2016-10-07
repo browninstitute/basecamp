@@ -21,6 +21,7 @@ nav-menu:
 	}
 	.button:hover,
 	input[type="reset"]:hover { box-shadow: inset 0 0 0 2px rgba(255,127,80, .6); }
+	<!-- #one { background-color: #2A304F; } -->
 </style>
 
 <!-- Banner -->
@@ -54,10 +55,10 @@ nav-menu:
 		Are you passionate about the role that emerging technologies can play in the future of storytelling and journalism? Do you have a story that can only be told using technology outside the scope of traditional media? If so, you might be a perfect candidate for a Magic Grant from the Brown Institute for Media Innovation.
 		</p>
 		<p>
-		<strong>The Brown Institute Basecamp provides an opportunity for those interested in developing a Magic Grant proposal to strengthen their ideas and collaborate with others to form teams.</strong>
+		<strong>At Base Camp, you will work in interdisciplinary, bicoastal teams to develop new ideas and plans for media innovation that may result in Magic Grant projects. Brown Fellows, industry experts and faculty will be on hand to provide feedback, support and guidance.</strong>
 		</p>
 		<p>
-		It will consist of match-making activities intended to help those with similar interests and complementary skill sets find each other. You will get to ask previous Magic Grant recipients about their experience in the program, and set goals for the future of your own project.
+		You don't need a concrete idea or team to participate--interest in media innovation is what we're looking for!
 		</p>
 	</div>
 </section>
