@@ -3660,7 +3660,8 @@
 					width: 100%;
 				}
 
-				#contact > .inner > .split > * {
+				#contact > .inner > .split > *,
+				#who-what-when > .inner > .split > * {
 					padding: 3em 0 1em 0 ;
 				}
 
