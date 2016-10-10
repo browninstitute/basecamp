@@ -1,0 +1,42 @@
+
+<style media="screen">
+  .camp-date {
+    padding:2em ;
+    text-align: center;
+  }
+  /*.camp-date:first-child { border-right: 1px solid rgba(255,255,255.1)}*/
+  .camp-date strong { color: rgba(255,255,255,.4); }
+</style>
+
+<section id="dates">
+	<div class="row">
+    <section class="col-sm-4 col-sm-offset-2">
+      <div class="camp-date" style="border-right: 1px solid rgba(255,255,255,.1)">
+        <!-- <span class="icon alt fa-home"></span> -->
+        <h2>Fall Base Camp</h2>
+        <h4><span><strong>{{ site.fall-date }}</strong></span></h4>
+        <p>{{ site.fall-location }}<br />
+        {{ site.fall-city }}, {{ site.fall-state }}<br />
+        </p>
+        <!-- <small style="color: rgba(255,255,255,.4); font-size: 0.8em;">*All costs to and in the New York area will be provided</small> -->
+      </div>
+    </section>
+    <section class="col-sm-4">
+      <div class="camp-date">
+        <!-- <span class="icon alt fa-calendar"></span> -->
+        <h2>Winter Base Camp</h2>
+        <h4><span><strong>{{ site.winter-date }}</strong></span></h4>
+        <p>{{ site.winter-location }}<br />
+        {{ site.winter-city }}, {{ site.winter-state }}<br />
+        </p>
+      </div>
+    </section>
+  </div>
+</section>
+<section>
+  <div class="row" style="text-align:center; border-top: 1px solid rgba(255,255,255,.1); padding-top: 1.5em;">
+    <div class="col-xs-12">
+      <p>*All expenses will be paid to and around the Base Camp locations.</p>
+    </div>
+  </div>
+</section>

@@ -6,18 +6,28 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title-bold: Basecamp
+title-bold: Base Camp
 title-normal: The Brown Institute for Media Innovation
 email: yilmaz@stanford.edu
-description: Interested in knowing more about the Magic Grants? Join us for a weekend to learn more about our process and meet potential teammates.
+description: Have an idea that would transform how we communicate online or share, receive and distribute information? Want to develop ideas for technology that will shape the future of media?
+
+# Local
+# baseurl:
+# url:
+
+# Public
 baseurl: basecamp
 url: https://browninstitute.github.io/
-author:
-date: November 12-13, 2016
-street_address: Columbia University
-city: New York
-state: NY
-country: United States of America
+
+fall-date: November 12-13, 2016
+fall-location: Columbia University
+fall-city: New York
+fall-state: NY
+
+winter-date: January 13-15, 2017
+winter-location: Stanford University
+winter-city: Stanford
+winter-state: CA
 
 # Plugins
 gems:

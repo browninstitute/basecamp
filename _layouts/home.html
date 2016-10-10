@@ -8,10 +8,19 @@
 
 {% include head.html %}
 
-<body>
+  <body>
 
-    {% include header.html %} {{ content }} {% include who-what-when.html %} {% include callout.html %} {% include footer.html %}
+      {% include header.html %} {% include banner.html %}
 
-</body>
+      {% include dates.html %}
 
+    <div id="main" class="row">
+
+      {% include who-what-when.html %} {{ content }} 
+
+    </div>
+
+      {% include callout.html %} {% include footer.html %}
+
+  </body>
 </html>

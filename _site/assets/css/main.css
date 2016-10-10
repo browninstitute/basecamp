@@ -60,16 +60,16 @@
 
 	.row {
 		border-bottom: solid 1px transparent;
-		-moz-box-sizing: border-box;
+		/*-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
-		box-sizing: border-box;
+		box-sizing: border-box;*/
 	}
 
 	.row > * {
-		float: left;
+		/*float: left;
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
-		box-sizing: border-box;
+		box-sizing: border-box;*/
 	}
 
 	.row:after, .row:before {
@@ -104,11 +104,11 @@
 	}
 
 	.row > * {
-		padding: 0 0 0 2em;
+		/*padding: 0 0 0 2em;*/
 	}
 
 	.row {
-		margin: 0 0 -1px -2em;
+		/*margin: 0 0 -1px -2em;*/
 	}
 
 	.row.uniform > * {
@@ -3587,7 +3587,8 @@
 		overflow-x: hidden;
 	}
 
-		#contact > .inner {
+		#contact > .inner,
+		#dates > .inner {
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -3599,6 +3600,18 @@
 				padding: 4em 3em 2em 0 ;
 				border-right: solid 1px rgba(212, 212, 255, 0.1);
 				width: 60%;
+			}
+
+			#dates {
+				border-top: solid 1px rgba(212, 212, 255, 0.1);
+			}
+
+			#dates > .inner > * {
+				padding: 4em 3em 2em 0 ;
+			}
+
+			#dates > .inner > :first-child {
+				border-right: solid 1px rgba(212, 212, 255, 0.1);
 			}
 
 			#contact > .inner > :nth-child(2n) {
