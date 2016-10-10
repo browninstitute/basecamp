@@ -3555,9 +3555,9 @@
 			border-top: solid 1px rgba(212, 212, 255, 0.1);
 		}
 
-			#main > *:first-child {
+			/*#main > *:first-child {
 				border-top: 0;
-			}
+			}*/
 
 			#main > * > .inner {
 				padding: 4em 0 2em 0 ;
