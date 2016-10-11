@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title-bold: Base Camp
-title-normal: The Brown Institute for Media Innovation
+title-bold: The Brown Institute <br /> for Media Innovation
+title-normal: Base Camp
 email: yilmaz@stanford.edu
-description: Have an idea that would transform how we communicate online or share, receive and distribute information? Want to develop ideas for technology that will shape the future of media?
+description: Have an idea that can transform how we communicate online, how we share and receive information, and how we tell stories? Want to develop ideas for technology that will shape the future of media? <br/><br/> <strong>Applications due October 23</strong>
 
 # Local
 # baseurl:

@@ -3102,9 +3102,11 @@
 				background-color: #ffffff;
 				color: #242943;
 				display: inline-block;
-				line-height: 1.65em;
 				margin-right: 0.325em;
-				padding: 0 0.125em 0 0.375em;
+				letter-spacing: 2px;
+		    line-height: 10pt;
+		    vertical-align: middle;
+		    padding: 7px 5px;
 			}
 
 			#header .logo:hover strong {
@@ -3194,6 +3196,8 @@
 			-ms-animation: reveal-header 0.35s ease;
 			animation: reveal-header 0.35s ease;
 		}
+
+		#header.reveal .logo { margin-top: -2px; }
 
 		#header.alt {
 			-moz-transition: opacity 2.5s ease;
