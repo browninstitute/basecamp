@@ -1,13 +1,24 @@
+<style>
+	.site-description { float: left; }
+	.site-description span {
+		padding: 10px 0; /* change horizontal padding to 0 */
+		box-shadow: 10px 0 0 #242943, -10px 0 0 #242943; /* add this line */
+		background-color: #242943;
+	}
+</style>
+
 <!-- Banner -->
 <section id="banner" class="major">
 	<div class="inner">
-		<header class="major">
-			<h1>{{ page.landing-title }}</h1>
-		</header>
+		<!-- <div class="content row"> -->
+			<header class="major">
+				<h1><span>{{ page.landing-title }}</span></h1>
+			</header>
+		<!-- </div> -->
 		<div class="content row">
-			<p class="col-md-8" style="text-transform: uppercase;">{{ site.description }}</p>
+			<p class="col-md-8 site-description"><span>{{ site.description }}</span></p>
 			<ul class="actions col-md-4">
-				<li><a href="#one" class="button next scrolly">Apply now  <i class="fa fa-arrow-right" aria-hidden="true"></i></a></li>
+				<li><a href="https://brown.submittable.com/submit/68428/base-camp-2016" class="button next">Apply now  <i class="fa fa-arrow-right" aria-hidden="true"></i></a></li>
 			</ul>
 		</div>
 	</div>

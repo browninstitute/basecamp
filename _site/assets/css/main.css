@@ -2380,6 +2380,21 @@
 			margin-left: 2em;
 		}
 
+/* Alerts */
+	.alert-info {
+	    color: #bce8f1;
+	    background-color: rgba(173, 216, 230,.2);
+	    border-color: #bce8f1;
+	}
+
+	.alert-danger {
+	    color: #ebccd1;
+	    background-color: rgba(231, 116, 113,.1);
+	    border-color: #ebccd1;
+	}
+
+
+
 /* Table */
 
 	.table-wrapper {
@@ -3103,9 +3118,10 @@
 				color: #242943;
 				display: inline-block;
 				margin-right: 0.325em;
-				letter-spacing: 2px;
+				letter-spacing: 1px;
 		    line-height: 10pt;
 		    vertical-align: middle;
+				font-family: 'Oswald', sans-serif;
 		    padding: 7px 5px;
 			}
 
@@ -3377,7 +3393,7 @@
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.85;
+			opacity: 0.65;
 			position: absolute;
 			top: 0;
 			width: 100%;
