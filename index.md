@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home
+title: Brown Institute Base Camp
 landing-title: Brown Institute Base Camp
 description:
 image:
